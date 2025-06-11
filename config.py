@@ -2,8 +2,8 @@ import logging
 from logging.handlers import RotatingFileHandler
 
 LOG_FILE_NAME = "bot.log"
-PORT = '8020'
-OWNER_ID = 6321064549
+PORT = '8080'
+OWNER_ID = 1580687565
 MSG_EFFECT = 5046509860389126442
 
 def LOGGER(name: str, client_name: str) -> logging.Logger:
